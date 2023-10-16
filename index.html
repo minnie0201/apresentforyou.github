@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="style.css"/>
@@ -6,19 +6,18 @@
         <title>Entrance</title>
     </head>
     <body>
+        
         <form action="next.html" class="login">
         <h1>パスワードを入力してください</h1>
         <hr>
            <!--password enter-->
-           <input type="password" id="pw"required placeholder="パスワードを入力してください" id="2023oct"/>
-           <input type="submit" id="sub"value="提出">
-          
+           <input type="password" id="pw" name="pw"required placeholder="パスワードを入力してください">
+           <button onclick="passcheck()">提出</button>
+           <script src="pw.js"></script>
+           
            <br> 
            
         </form>
     </body>
-
-       
-
-    </body>
 </html>
+
